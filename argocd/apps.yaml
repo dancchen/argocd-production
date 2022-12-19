@@ -24,8 +24,8 @@ spec:
   - namespace: argocd
     server: https://kubernetes.default.svc
   clusterResourceWhitelist:
-  - group: ''
-    kind: Namespace
+  - group: '*'
+    kind: '*'
   namespaceResourceBlacklist:
   - group: ''
     kind: ResourceQuota
