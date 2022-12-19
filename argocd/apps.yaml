@@ -42,7 +42,7 @@ spec:
     kind: Ingress
   - group: 'v1'
     kind: Service
-  - group: 'argoproj.io/v1alpha1"
+  - group: 'argoproj.io/v1alpha1'
     kind: Application
 
 ---
